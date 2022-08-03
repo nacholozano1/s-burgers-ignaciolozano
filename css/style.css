@@ -10,6 +10,28 @@ body{
     font-family: "Albert Sans";
 }
 
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black!important;
+}
+
+ul.navbar-nav{
+    --bs-nav-link-hover-color: #fffa07;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fffa07;
+    font-weight: 600;
+}
+
 @media only screen and (max-width:600px) {
 
     .grilla{
